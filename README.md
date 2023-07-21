@@ -20,4 +20,5 @@ Once you have cloned the information, you need to have the postgres' password be
 
 The current existing users are as follows:
 johndoe | password1
+
 janesmith | password2
