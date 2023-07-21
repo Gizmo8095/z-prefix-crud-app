@@ -1,0 +1,14 @@
+{
+  "name": "z-prefix-crud-app-server",
+  "scripts": {
+    "start": "knex migrate:latest && knex seed:run && node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "knex": "^2.5.1",
+    "pg": "^8.11.1",
+    "react-bootstrap": "^2.8.0"
+  }
+}
